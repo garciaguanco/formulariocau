@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Bienvenido a la Página de Inicio</h2>
+    <ul>
+        
+    
+    <li><a href="/paginas/usuario.html">Registrarse</a></li>
+    <li><a href="/paginas/cambiarpass.html">Cambiar Contraseña</a></li>
+
+    </ul>
+</div>
+
+<div class="container">
+    <h2>Iniciar Sesión</h2>
+    <form id="inicioSesionForm">
+        <label for="nombre_usuario">Nombre de Usuario:</label>
+        <input type="text" id="nombre_usuario" name="nombre_usuario" required>
+
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required>
+
+        <button type="submit">Iniciar Sesión</button>
+    </form>
+    <a href="registro.html">¿No tienes una cuenta? Registrarse</a>
+</div>
+
+<script src="inicio_sesion.js"></script>
+
+</body>
+</html>
+
